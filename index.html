@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up form - Odin Project</title>
+
+  <link rel="stylesheet" href="styles/index.css" />
+</head>
+<body>
+  <main>
+    <div class="image__container">
+      <img src="./images/odin_logo.png" alt="Logo Odin" />
+      <h1>ODIN</h1>
+    </div>
+    <section class="right__wrapper">
+      <div class="top__text">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+        <p>You know you want to.</p>
+      </div>
+      <div class="form__container">
+        <h2>Let's do this!</h2>
+        <form action="#" method="POST">
+          <label for="first_name">Nome</label>
+          <input type="text" id="first_name" name="nome" placeholder="Inserisci il tuo nome" minlength="3" maxlength="20" />
+          <label for="last__name">Cognome</label>
+          <input type="text" id="last__name" name="cognome" placeholder="Inserisci il tuo cognome" />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="nome@example.com" />
+          <label for="numero">Numero</label>
+          <input type="number" name="numero" id="numero" maxlength="10" placeholder="1234567890" />
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+          <label for="password_confirm">Conferma Password</label>
+          <input type="password" name="password_confirm" id="password_confirm" />
+        </form>
+      </div>
+      <div class="footer__text">
+        <button type="submit">Crea un Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
