@@ -23,18 +23,22 @@
       <div class="form__container">
         <h2>Let's do this!</h2>
         <form action="#" method="POST">
-          <label for="first_name">Nome</label>
-          <input type="text" id="first_name" name="nome" placeholder="Inserisci il tuo nome" minlength="3" maxlength="20" />
-          <label for="last__name">Cognome</label>
-          <input type="text" id="last__name" name="cognome" placeholder="Inserisci il tuo cognome" />
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="nome@example.com" />
-          <label for="numero">Numero</label>
-          <input type="number" name="numero" id="numero" maxlength="10" placeholder="1234567890" />
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password" />
-          <label for="password_confirm">Conferma Password</label>
-          <input type="password" name="password_confirm" id="password_confirm" />
+          <div class="first__section">
+            <label for="first_name">Nome</label>
+            <input type="text" id="first_name" name="nome" minlength="3" maxlength="20" />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="second__section">
+            <label for="last__name">Cognome</label>
+            <input type="text" id="last__name" name="cognome" />
+            <label for="numero">Numero</label>
+            <input type="number" name="numero" id="numero" maxlength="10" />
+            <label for="password_confirm">Conferma Password</label>
+            <input type="password" name="password_confirm" id="password_confirm" />
+          </div>
         </form>
       </div>
       <div class="footer__text">

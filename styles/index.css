@@ -52,6 +52,8 @@ main {
   display: flex;
 }
 
+/* HEADER SECTION */
+
 main div.image__container {
   background-image: url(../images/background.jpg);
   font-family: "Norse", sans-serif;
@@ -78,6 +80,69 @@ main div.image__container div.head__text__container {
   background-color: rgba(0, 0, 0, .4);
 }
 
+
+/* --------- */
+
+/* TOP TEXT - RIGHT */
+
 main .right__wrapper {
   flex: 2 0 0;
+  display: flex;
+  flex-direction: column;
+}
+main section.right__wrapper div.top__text {
+  height: 33vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 50px;
+  gap: 20px;
+}
+
+main section.right__wrapper div.top__text p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+main section.right__wrapper div.form__container {
+  height: 45vh;
+  background-color: #f7f7f7;
+  -webkit-box-shadow: 0px 7px 8px -7px #000000; 
+  box-shadow: 0px 7px 8px -7px #000000;
+}
+
+main section.right__wrapper div.form__container h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main section.right__wrapper div.form__container form label {
+  display: block;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 2px 0;
+}
+
+main section.right__wrapper div.form__container form input {
+  height: 20px;
+  border-radius: 3px;
+  border: 1px solid #ebe9e9;
+  margin-bottom: 10px;
+}
+
+main section.right__wrapper div.form__container form input:focus {
+  outline: #0354ce solid 1px;
+}
+
+main section.right__wrapper div.form__container form {
+  display: flex;
+  gap: 50px;
+  margin-left: 30px;
+  margin-top: 20px;
 }
