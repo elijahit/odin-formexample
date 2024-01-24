@@ -106,6 +106,10 @@ main section.right__wrapper div.top__text p {
   font-size: 22px;
 }
 
+/* --------- */
+
+/* FORM SECTION - RIGHT */
+
 main section.right__wrapper div.form__container {
   height: 45vh;
   background-color: #f7f7f7;
@@ -146,3 +150,33 @@ main section.right__wrapper div.form__container form {
   margin-left: 30px;
   margin-top: 20px;
 }
+
+/* --------- */
+/* FOOTER TEXT - RIGHT */
+
+main section.right__wrapper div.footer__text button {
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #9f4805;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 8px -7px #000000; 
+  box-shadow: 0px 7px 8px -7px #000000;
+  cursor: pointer;
+}
+
+main section.right__wrapper div.footer__text p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+main section.right__wrapper div.footer__text a {
+  list-style: none;
+  text-decoration: none;
+  color: #9f4805;
+  font-weight: bold;
+}
+
+/* --------- */
